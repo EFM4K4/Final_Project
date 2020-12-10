@@ -1,0 +1,33 @@
+Bitmap vs Vector graphics:
+
+  Adobe photoshop - Bitmap
+    When Bitmap is scaled up, you will see the pixels or blocks used to make up the image
+    
+  Adobe Illustrator - Vector Images
+    When vector is scaled up it will remain smooth, because an image like a circle is defined as a shape and is represented as a math construct
+    
+Color Depth(Bit depth):
+
+   Number of bits used to indicate color of a certain pixel
+    Each pixel in a bitmap image is represented by a number of bits.
+     24 bit (True Color)(24^2) - 16,777,216 possible colors
+        Uses 24 bits (3 bytes) for each pixel
+          1 byte (8 bits) is assigned to each red, blue, and green
+            8 bits of each color makes 256 possible shades of the certain color (red, blue, green)
+
+    16 bit (High Color)(16^2) - 65536 possible colors
+    8 bit (Indexed Color)(8^2) - 256 possible colors
+ 
+Image Compression: 
+ 
+  Type of data compression having to do with images to reduce storage space
+    Lossy compression:
+      Supported by JPEG, each time the image is saved, you could lose information, which makes your image have less quality.
+    Lossless compression:
+      Supported by PNG, will not lose any information when saved multiple times which results in the image still being the same quality when first saved
+      
+Best file types for web pages:
+  JPEG, GIF, PNG, SVG and WEBP
+  
+File types to not use on web pages:
+  BMP, TIFF, and XBM
